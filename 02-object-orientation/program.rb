@@ -1,21 +1,10 @@
-require 'pry'
+$tilly = {
+    sound: 'Woof',
+    first_name: 'Tilly',
+    last_name: 'Miles',
+    full_name: 'Tilly Miles'
+}
 
-class Animal
-
-    def initialize(sound, age)
-        @my_sound = sound
-        @age = age
-    end
-
-
-    def make_sound
-        return @my_sound
-    end
-
+def tilly_bark()
+    puts $tilly[:sound]
 end
-
-tess = Animal.new('Woof', 10)
-
-puts tess.make_sound
-
-

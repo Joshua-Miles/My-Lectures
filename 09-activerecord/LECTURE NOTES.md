@@ -10,13 +10,15 @@
 
 * Recognize the components of a conventional ActiveRecord environment
 * Use ActiveRecord migrations to create and update a data schema
-* Use ActiveRecord models to perform basic CRUD operations
+* Use ActiveRecord models to manipulate data
 
 
 
 ### Activation
 
 * Demonstrate building a mini ORM
+* If we kept adding features and kept adding features and kept adding features, we would be able to do everything we need to do with SQL, using plain ruby code
+  * That's what ActiveRecord is, a set of tools that let us write ruby, and writes SQL for us in the background
 
 
 
@@ -37,9 +39,6 @@
 * ActiveRecord
 
 ##### Questions 
-
-##### Check for Understanding
-* *Kahoot Quiz:* [1-3] 
 
 
 
@@ -63,10 +62,6 @@
 
 ##### Questions 
 
-##### Check for Understanding
-
-- *Kahoot Quiz:* [4-6] 
-
 
 
 ### Learning Goal 3: Use ActiveRecord models to perform basic CRUD operations
@@ -88,9 +83,7 @@
 
 ##### Questions 
 
-##### Check for Understanding
 
-- *Kahoot Quiz:* [7-10] 
 
 
 ### Conclusion 

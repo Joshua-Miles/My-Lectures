@@ -1,26 +1,100 @@
 # Object Orientation
-* Lecture Exercise: <https://github.com/Joshua-Miles/object-orientation-lecture-exercises>
 
-##### Deliverables
+**Time: 1:30** 
 
-- Refactor the logic for our hero "Spiderman" so that we can apply it to a new hero, "Thor"
-- Implement a "coolest_ability" method, which finds the coolest ability in a heros coolest abilities array.
-- Implement a method we can call to get the hero with the most abilities
+**FormativeEducation Deck:** <https://formative.education/projects/5/edit>
+
+
 
 ### Learning Goals
 
-- Explain the difference between objects and classes and their roles in making code more reuseable
-- Use the `initialize` method to define variables inside of a class
-- Use getter and setter methods to create object properties
-- Use the `self` keyword to access methods within an object
-- Explain the  difference between class and instance variables and properties 
+- Create a class and instance
+- Create instance methods
+- Create instance variables
+- Use the `initialize` method to set inital values for instance variables 
 
 
-Object
-* Data + Behavior
-* Specific examples of an idea
 
-Class
-* Makes objects / defines the data structure
-    * We instantiate classes to create objects
-* Represent ideas
+### Activation
+
+##### Time: 0:00
+
+What if we wanted **two** animals that could **both** have their own sounds?
+
+Our logic is closely related to our data- we want to combine it
+
+Objects are a combination of data and logic
+
+
+
+### Learning Goal 1: Create a class and instance
+
+##### Time: 0:10
+
+##### Demonstrate
+
+- Objects and classes are different
+- Classes have a `new` method which creates an object of that _type_
+
+##### Vocabulary
+
+- Class
+- Object
+
+##### Questions 
+
+
+
+### Learning Goal 2: Create instance methods
+
+##### Time: 0:25
+
+##### Demonstrate
+
+- Instance methods can't be accessed directly
+- You access them through a method of an instance
+
+##### Vocabulary
+
+- Instance method
+
+##### Questions 
+
+
+
+### Learning Goal 3: Create instance variables
+
+##### Time: 0:45
+
+##### Demonstrate
+
+- Instance variables can be accessed _anywhere_ inside of an instance
+- Defining instance variables
+- Using a fake `init`
+- How`initialize` runs automatically
+
+##### Vocabulary
+
+- Instance variable
+
+##### Questions 
+
+
+
+### Learning Goal 4: Use the `initialize` method to set inital values for instance variables 
+
+##### Time: 1:10
+
+##### Demonstrate
+
+* Passing arguments to `initalize`
+
+##### Vocabulary
+
+- `initialize`
+
+##### Questions 
+
+
+
+
