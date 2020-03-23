@@ -1,20 +1,24 @@
-# ActiveRecord Relationships
+## Intro to ActiveRecord
 
 ### Learning Goals
 
-- Use a seed file to add hard-coded "seed" data to our database
-- Use ActiveRecord to create a one-to-many relationship
-- Use ActiveRecord to create a many-to-many relationship
+- ~~Recognize the components of a conventional ActiveRecord environment~~
+- Use ActiveRecord migrations to create and update a data schema
+- Use ActiveRecord models to perform basic CRUD operations
 
+##### Vocabulary
 
-<br>
-<br>
-
-
-Airline -< Plane
-
-   |
-  /\
-Ticket
-
-Passenger
+- Gemfile
+    - Managing Dependencies
+- Rake
+    - Managing Tasks
+- ActiveRecord
+    - Mapping Ruby code to SQL queries (ORMs)
+- ORM
+    - Object
+    - Relational
+    - Mapper
+- Migrations
+    - Used to define a table schema
+- Model
+    - Used to represent a table when our app is running 
