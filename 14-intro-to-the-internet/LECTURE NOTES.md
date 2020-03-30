@@ -2,7 +2,8 @@
 
 ### Activation
 
-- Tim Berners Lee?
+- The apps we built this week were amazing...
+- ...but I can only access them if I'm on your computer
 
 
 
@@ -23,14 +24,21 @@
 ###Identify the components of an HTTP Request and Response
 
 - URL
-  - Protocol
-  - Domain
-  - Path
-  - Port
 - Method
 - Headers
 - Body
-- Status Code
+
+Open:
+
+<https://www.fuckyeahgtj.com/emoji-socket-fireworks/>
+
+Run: 
+
+ `document.querySelector('main').innerHTML =''`
+
+
+
+
 
 ### Use Sinatra to to respond to an HTTP Request
 
@@ -39,12 +47,3 @@
   - Shotgun
   - Sinatra
   - Rails
-
-
-
-```
- get '/message' do 
- 	'<a href="http://10.185.3.47:9393/message">Link Text</a>'
- end
-```
-

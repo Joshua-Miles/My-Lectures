@@ -10,10 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_26_115608) do
+ActiveRecord::Schema.define(version: 2020_03_23_150035) do
 
-  create_table "artists", force: :cascade do |t|
+  create_table "breeds", force: :cascade do |t|
     t.string "name"
+    t.float "average_height"
+  end
+
+  create_table "dogs", force: :cascade do |t|
+    t.string "name"
+    t.integer "age"
+    t.string "img_url"
+    t.integer "breed_id"
+    t.integer "owner_id"
+  end
+
+  create_table "owners", force: :cascade do |t|
+    t.string "name"
+    t.integer "age"
   end
 
 end
