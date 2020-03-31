@@ -1,23 +1,29 @@
 class ApplicationController < Sinatra::Base
 
-    set(:views, './app/views')
+    set(:views, 'app/views')
 
-    get('/receipts') do 
-        @receipts = Receipt.all
-        erb(:receipts) 
+    get('/list-dogs') do
+        @dogs = Dog.all 
+        erb(:dog_list)
     end
 
-    get('/create-receipt') do 
-        erb(:create_receipt)
+    get('/create-dog-forms') do 
+        erb(:create_dog)
     end
 
-    post('/create-receipt') do 
-        Receipt.create({
-            amount: params[:amount],
-            restaurant_id: params[:restaurant_id],
-            customer_id: params[:customer_id]
+    get('/create-dog') do 
+        @dog = Dog.create({
+            name: params[:dog_name],
+            img_url: params[:dog_image]
         })
-        redirect '/receipts'
+        redirect("/get-dog/#{@dog.id}")
+    end
+
+    get('/get-dog/:id') do
+        @dog = Dog.find_by({ id: params[:id] }) 
+        @dog_name = @dog.name
+        erb(:dog_display)
     end
 
 end
+

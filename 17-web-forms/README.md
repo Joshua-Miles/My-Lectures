@@ -1,5 +1,4 @@
-# Dog Kennel
-
+# Daily Deliverables:
 As a user, I should be able to:
 * Register a dog
     * With their name

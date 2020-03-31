@@ -10,29 +10,33 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_28_180954) do
+ActiveRecord::Schema.define(version: 2020_03_31_200752) do
 
-  create_table "customers", force: :cascade do |t|
+  create_table "breeds", force: :cascade do |t|
     t.string "name"
-    t.string "established"
+    t.float "average_height"
   end
 
-  create_table "pantry_items", force: :cascade do |t|
-    t.string "name"
-    t.string "category"
-    t.integer "quantity"
-    t.date "date_expires"
+  create_table "dog_feeding_times", force: :cascade do |t|
+    t.integer "dog_id"
+    t.integer "feeding_time_id"
   end
 
-  create_table "receipts", force: :cascade do |t|
-    t.integer "amount"
-    t.integer "customer_id"
-    t.integer "restaurant_id"
+  create_table "dogs", force: :cascade do |t|
+    t.string "name"
+    t.integer "age"
+    t.string "img_url"
+    t.integer "breed_id"
+    t.integer "owner_id"
   end
 
-  create_table "restaurants", force: :cascade do |t|
+  create_table "feeding_times", force: :cascade do |t|
+    t.string "label"
+  end
+
+  create_table "owners", force: :cascade do |t|
     t.string "name"
-    t.string "age"
+    t.integer "age"
   end
 
 end

@@ -3,43 +3,37 @@
 
 ### Learning Goals
 
-* Use foreign keys to create references between Table Rows
+* Use foreign keys to create relationships between objects
 * Use user input to define foreign keys
-* Use other types of inputs to improve the user's experience when creating associations
+* Use a select box to assign a foreign key
+* Use checkboxes to create has_many associations
 
 
 
 ### Activation
 
-* Overview of the Lecture Exercise Code
-* Web Association Tables
-
+* Review Daily Deliverables
 
 
 ### Learning Goal 1: Use foreign keys to create references between Table Rows
 
-##### Talking Points
+##### Talking Points 
 
-* Review relationship handouts
-* Associate rows together using foreign keys
+> They should be able to drive the show on this now. Ask a lot of questions.
+
+* In the console 
+  * Review how Tess is a Terrier
 * Demonstrate how we define the associations in the model
-  * The code that that actually gets us
-* Using the association in the controller
+* In the console
+  * Reassign Tess's Association
 
-##### Early Assessment 
-
-- Kahoot
-  - Will working code produce an association?
-  - Will broken code (missing `_id`) produce an association?
-  - Will abstracted code (using a seperate hash) produce an association?
-
-##### Primary Assessment
-
-- Associate a PantryItem with a Category using a foreign key with the seed file
+##### Questions
 
 
 
 ### Learning Goal 2: Use user input to define foreign keys
+
+> If I want an input for the user to type in a foreign key, how would I make it
 
 ##### Talking Points
 
@@ -47,20 +41,17 @@
 * Naming an input after a foreign key
 * Manually creating a relationship by ID
 
-##### Early Assessment 
-
-- Kahoot
-  - Will broken code (missing `_id`) produce an association?
-  - Will broken code (miss-matched names) produce an association?
-  - Will working code code (miss-matched names) produce an association?
-
-##### Primary Assessment
-
-- Update the form inputs and controller method to allow a user to define the `category_id` of a PantryItem 
+##### Questions
 
 
 
-### Learning Goal 3:  Use other types of inputs to improve the user's experience when creating associations
+> Break
+
+
+
+### Learning Goal 3:  Use a select box to assign a foreign key
+
+> What would be a better UI?
 
 ##### Talking Points
 
@@ -69,14 +60,18 @@
 * Abstracting to iterate over the model
 * Accessing the view in the model is a bad idea
 
-##### Early Assessment 
+##### Questions 
 
-- Kahoot
-  - How do select boxes work? What will be in params if `(this option selected)`
-  - Will broken code (wrong value) produce an association?
-  - Will abstracted code (with an each loop) produce an association?
 
-##### Primary Assessment
 
-- Refactor the text input into a `select` box
+### Learning Goal 4:  Use checkboxes to create has_many associations
+
+##### Talking Points
+
+- `Dog#feeding_time_ids` method
+- How this will create or destroy instances of the join class automatically
+- Using checkboxes to assign `feeding_time_ids`
+- Abstracting to iterate over an array defined in the controller
+
+##### Questions 
 

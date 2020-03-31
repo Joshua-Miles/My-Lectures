@@ -1,6 +1,0 @@
-<% @receipts.each do | receipt | %>
-    <strong><%= receipt.amount %></strong>
-    <p>Customer: <%= receipt.customer.name %></p>
-    <p>Restaurant: <%= receipt.restaurant.name %></p>
-<% end %>
-<a href="/create-receipt">Create New Receipt</a>
