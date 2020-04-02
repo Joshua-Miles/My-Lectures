@@ -5,83 +5,81 @@
 ### Learning Goals
 
 - Create a Rails app
+
 - Create & Run Migrations with Rails
-- Use Rails to create seperated routes and controller methods
-- Use the methods of strong params to filter user input
+
+- Use Rails to create seperate routes and controller actions
+
+
+### Activation 
+
+* Have them drive in finishing the activation code:
+
+> How would I select the teenagers from my users?
+
+* They will **probably** use select
+* Could I solve this with `each`?
+* Why not solve this with `each`?
+* Because we've already taught the computer **how** to select
+* `select` is an abstraction
+* So. Is. Rails.
 
 
 
 ### Learning Goal 1: Create a Rails app
 
-##### Discussion Points: 
+##### Discuss: 
 
-##### Early Assessment: 
-
-##### Primary Assessment: 
+* Rails is a gem
+* Rails is a framework
+  * What is a framework? 
+    * A tool that tells you where to put your code 
+  * Rails wraps alot of the tools we've been using 
+* 
+  * It wraps alot of the tools we've been using so far
+* How do we install gems?
+* `rails new {name} --skip-git --skip-javascript`
+  * Holy shit this created a lot of stuff for us
+    * Still, most of it is familiar
+* What `--skip-git` does
+* What `--skip-javascript`
 
 
 
 ### Learning Goal 2: Create & Run Migrations with Rails
 
-##### Discussion Points: 
+##### Discuss: 
 
-##### Early Assessment: 
-
-##### Primary Assessment: 
+* Now that our environment is all set up, we need to create tables for our app
+* Instead of `rake db:create_migration`, we'll use `rails generate migration {name}`
+  * Look at what this did for us!
+* Instead of `rake db:migrate`, we'll run `rails db:migrate`
 
 
 
 ### Learning Goal 3: Use Rails to create seperated routes and controller methods
 
-##### Discussion Points: 
+##### Discuss: 
 
-##### Early Assessment: 
-
-##### Primary Assessment: 
-
-
-
-### Learning Goal 4: Use the methods of strong params to filter user input
-
-##### Discussion Points: 
-
-##### Early Assessment: 
-
-##### Primary Assessment: 
+* Now we need to create routes, controller actions, and views
+* In Sinatra, our routes and controller actions were in the same place. Rails will seperate them
+* So, first we'll make a route
+  * Then a controller action
+    * Then copy over the view
+    * ...My view and controller action have the same name
+    * Rails will actually render the view automatically for us
 
 
 
+### Conclusion 
 
-
-
-
-
-
-
-
-
-
-
-
-![](https://s3-us-west-2.amazonaws.com/student-resources/uploads/lecture/Screen+Shot+2017-06-09+at+10.04.20+AM.png)
-
-Over the years, Rails has indeed made it easier for beginners to dive into web development and build large complex applications. Some popular websites built on Rails include Twitter \(at one point\), GitHub and, of course, 37signals' very own Basecamp. Although it has often been criticized for performance and bloat, Rails continues its iterations with an ever-growing developer community and a vibrant ecosystem.
-
-
-
-
-
-## Learning Goals
-
-#### Part I
-
-- Identify the 7 Restful Routes
-- Create a Rails App
-- Create and run migrations using rails
-- Create rails controllers and route get requests to them
-
-#### Part II
-
-- Create controller methods which handle POST requests using strong params
-- Build a second controller using `resource` for routes
-- Explain the value of convention over configuration as it applies to the 7 restful routes
+- I don't want to rain Rails' parade
+  - But I'm totally going to rain on Rails' parade
+- Return to the activation code.
+- So, this abstraction is better than `each` right?
+- So, we're never going to use `each` again, right?
+- No! `select` is better for **this specific** problem
+- We've barely begun to scratch the surface of how Rails can abstract away certain complexities and do a lot of our work for us
+  - After two more days of lectures, we'll still be scratching the surface
+- But at the end of the day, Rails is still an abstraction, designed to solve **specific** problems using the tools from last week
+- A HUGE part of being a good developer right now is knowing when to choose **which** tool. Sometimes the best tool for the job is going to be Rails, and sometimes it's going to be Sinatra. The same way we should sometimes use `select`, and sometimes use `each`
