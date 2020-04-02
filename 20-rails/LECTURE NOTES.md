@@ -64,8 +64,8 @@
 * Now we need to create routes, controller actions, and views
 * In Sinatra, our routes and controller actions were in the same place. Rails will seperate them
 * So, first we'll make a route
-  * Then a controller action
-    * Then copy over the view
+  * Then a controller action ( `erb` turns into `render`, `redirect` turns into `redirect_to`)
+    * Then copy over the view (into a folder named after the controller)
     * ...My view and controller action have the same name
     * Rails will actually render the view automatically for us
 
