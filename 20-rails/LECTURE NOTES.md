@@ -53,7 +53,12 @@
 * Now that our environment is all set up, we need to create tables for our app
 * Instead of `rake db:create_migration`, we'll use `rails generate migration {name}`
   * Look at what this did for us!
+  * Now you try
+  * We can also define columns from the terminal!
+  * Now you try!
 * Instead of `rake db:migrate`, we'll run `rails db:migrate`
+* Copy over the seed file
+* Instead of `rake db:seed`, what do you think we'll run?
 
 
 
@@ -61,12 +66,14 @@
 
 ##### Discuss: 
 
+* We'll talk more about this later: `skip_before_action(:verify_authenticity_token)`
 * Now we need to create routes, controller actions, and views
 * In Sinatra, our routes and controller actions were in the same place. Rails will seperate them
 * So, first we'll make a route
   * Then a controller action ( `erb` turns into `render`, `redirect` turns into `redirect_to`)
     * Then copy over the view (into a folder named after the controller)
     * ...My view and controller action have the same name
+    * Test with `rails server`
     * Rails will actually render the view automatically for us
 
 

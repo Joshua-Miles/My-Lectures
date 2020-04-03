@@ -8,13 +8,17 @@ class ApplicationController < Sinatra::Base
     end
 
     get('/create-dog-forms') do 
+        @breeds = Breed.all 
+        @feeding_times = FeedingTime.all
         erb(:create_dog)
     end
 
     get('/create-dog') do 
         @dog = Dog.create({
             name: params[:dog_name],
-            img_url: params[:dog_image]
+            img_url: params[:dog_image],
+            breed_id: params[:dog_breed_id],
+            feeding_time_ids: params[:feeding_time_ids]
         })
         redirect("/get-dog/#{@dog.id}")
     end
