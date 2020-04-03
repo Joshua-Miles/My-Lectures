@@ -3,7 +3,7 @@
 ### Learning Goals
 
 - Use `form_with`,`form.text_input`, and `form.submit` to create a form for a resource
-- Use `form.collection_select`  to create an input for an association
+- Use `form.collection_select` and `form.collection_check_boxes` to create inputs for associations
 - Use Authenticity Tokens to make forms more secure
 
 
@@ -56,7 +56,7 @@
 ##### Vocabulary
 - `form_with`
   - A function which creates a `<form>` tag
-- `form.text_input`
+- `form.text_field`
   - A function which creates a `<input type="text">` tag
 - `form.submit`
   - A function which creates a `<input type="submit">` tag
