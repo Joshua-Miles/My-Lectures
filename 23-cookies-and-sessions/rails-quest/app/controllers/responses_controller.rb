@@ -1,19 +1,18 @@
 class ResponsesController < ApplicationController
 
     def new
-        @message = flash[:message]
-        @number_correct = session[:number_correct]
+        @message = ""
+        @number_correct = 0
         @question = Question.all.sample
         @question_response = Response.new({ question: @question })
     end
 
     def create
-        if session[:number_correct]
-            @number_correct = session[:number_correct]
-        else
-            @number_correct = 0 # Must be the first time they've answered a question
-        end
-        response = Response.create(response_params)
+        @number_correct = 0
+        response = Response.create({
+            question_id: params[:question_response][:question_id],
+            answer_id: params[:question_response][:answer_id]
+        })
         if response.question.correct_answer == response.answer
             puts "                                  "
             puts "----------------------------------"
@@ -29,13 +28,7 @@ class ResponsesController < ApplicationController
         puts "Correct so far: #{@number_correct}"
         puts "----------------------------------"
         puts "                                  "
-        flash[:message] = @message
-        session[:number_correct] = @number_correct
-        redirect_to '/random-question'
-    end
-
-    def response_params
-        params.require(:response).permit(:answer_id, :question_id)
+        redirect_to('/random-question')
     end
 
 end
