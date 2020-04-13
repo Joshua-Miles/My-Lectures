@@ -10,8 +10,8 @@ class ResponsesController < ApplicationController
     def create
         @number_correct = 0
         response = Response.create({
-            question_id: params[:question_response][:question_id],
-            answer_id: params[:question_response][:answer_id]
+            question_id: params[:response][:question_id],
+            answer_id: params[:response][:answer_id]
         })
         if response.question.correct_answer == response.answer
             puts "                                  "
