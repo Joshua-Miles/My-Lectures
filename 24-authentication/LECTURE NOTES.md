@@ -1,37 +1,32 @@
 # Rails Authentication
 
+* ### Resources
 
-### Resources
-* <https://play.kahoot.it/#/?quizId=3ae3e032-e93f-4a16-a394-be99f18e8b74>
+  - **Formative Education Deck:** <https://formative.education/projects/25/edit>
+
+
 
 ### Learning Goals
 
-* Define Authentication, Hashing, Encryption, and BCrypt
-* Add a secure password to a user model using `has_secure_password` and `password_digest`
+* Add a secured password to a user model using `has_secure_password` and a `password_digest`
 * Check password equivalence with `.authenticate`
+
+> Break
+- Use the session to implement authorization
+- Use `before_action` hooks to run code before any controller action
 
 
 
 ### Learning Goal 1: Define Authentication, Hashing, Encryption
 ##### Demonstrate
 * The difference between authentication and authorization
-* The difference between hashing and encryption
-* That bcrypt is a gem
-
-##### Vocabulary
-* Authentication
-  * Is the user who they say they are?
-* Authorization
-  * Should the user be able to do what they're trying to do?
-* Hashing
-  * Turning a string into an unreadable string
-* Encryption
-  * Turning a string into an unreadable string that can be reversed
+* Define hashing
+* Why we would want to hash user passwords
+* Using 
 
 ##### Questions 
 
-##### Check for Understanding
-* *Kahoot Quiz:* [1-3] 
+
 
 
 
@@ -53,9 +48,7 @@
 
 ##### Questions 
 
-##### Check for Understanding
 
-- *Self Assessment:* [1] 
 
 
 ### Learning Goal 3: Check password equivalence with `.authenticate`
@@ -68,9 +61,7 @@
 
 ##### Questions 
 
-##### Check for Understanding
 
-- *Self Assessment:* [2] 
 
 
 
@@ -92,4 +83,3 @@ def current_traveler
     Traveler.find(session[:current_traveler_id])
 end
 ```
-
