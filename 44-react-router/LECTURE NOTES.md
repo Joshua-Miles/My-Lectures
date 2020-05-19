@@ -72,7 +72,7 @@
 * Inside of a button, add an onClick event listener that uses `history.push` to "redirect" the user to another route.
 
 
-##### Vocabulary
+### Vocabulary
 - Client Side Routing
     - Using the path from the url bar to conditionally render in the browser
 - BrowserRouter
