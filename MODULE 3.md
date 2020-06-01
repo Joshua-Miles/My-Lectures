@@ -6,7 +6,6 @@
   - Mutate the DOM and its styles using JavaScript
   - Create new DOM nodes and append them
   - Use different querySelectors to select single or multiple elements
-
 - JavaScripts
   - Identify common syntax differences between Ruby and JavaScript
     - String interpolation
@@ -16,7 +15,6 @@
   - Explain the difference beween referencing and invoking a function
   - Explain how JavaScript will find the value of a variable based on scope
   - Define variable hoisting
-
 - Events
   - Use `addEventListener` to invoke a callback function after an event
   - Explain the difference between bubbling and capturing events
@@ -44,8 +42,8 @@
   - Explain when and why to use class methods
   - Implement a class which inherits from another using the `extends` keyword
 - JavaScript Applications
-  - Focus on the methodology of using tools to build an app
-- Higher Order Functions
+  - Put together the tools of the Mod up to this point to build a JavaScript Application
+- Callback Functions
   - Use callbacks with common iterators like `map` and `filter`
   - Use currying to dynamically create basic functions like selectors
   - Describe functional, object oriented, and procedural paradigms

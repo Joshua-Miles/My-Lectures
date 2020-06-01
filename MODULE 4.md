@@ -23,9 +23,7 @@
   - use `useEffect` as if it were `componentDidMount`
   - Create a custom hook which relies on built in hooks
 - React Applications
-  - Strategically place state
-  - Plan the structure/mutations of state
-  - Plan inverse dataflow
+  - Put together the tools of the Mod up to this point to build a React Application
 - React Router
   - 
 - API Authentication

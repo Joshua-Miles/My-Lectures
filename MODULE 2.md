@@ -21,7 +21,7 @@
   - Describe how to send data from the browser to the server with a Form
   - Build a form which creates a nested hash through input name
 - Web Applications
-  - Focus on the methodology of using tools to build an app
+  - Put together the tools of the Mod up to this point to build a Web Application
 - Web Associations
   - Use foreign keys to create references between Table Rows
   - Use user input to define foreign keys

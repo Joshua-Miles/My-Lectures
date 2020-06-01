@@ -41,8 +41,8 @@
   - Use a `belongs_to` macro to create an ActiveRecord relationship
   - Use a `has_many` macro to create an ActiveRecord relationship
   - Use the `through` option to create a many to many relationship
-- CLI Applications
-  - Focus on the methodology of using tools to build an app
+- Basic Applications
+  - Put together the tools of the Mod up to this point to build a basic CLI Application
 - Git
   - Use `git clone` to get code from GitHub
   - Use `git commit` and  `git push` to save code back to GitHub
