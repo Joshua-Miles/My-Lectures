@@ -12,7 +12,7 @@
   - Create instance variables
   - Use the `initialize` method to set inital values for instance variables 
 - Object Properties
-  - Explain `self`
+  - Describe the `self` keyword
   - Create getters and setters
   - Use `access` macros
 - Inheritance

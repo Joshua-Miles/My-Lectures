@@ -1,4 +1,4 @@
-# One to Many Associations
+# Associations Part I
 
 ##### Time: 1:30
 
@@ -17,7 +17,7 @@
 ### Activation
 
 ##### Time: 0:00
-* How tall should ____'s dog be, based on their breed?
+* How tall should Scott's dog be, based on their breed?
 * **How** did you determine that?
 * How many dogs are terriers?
 * **How** did you determine that?
@@ -72,7 +72,3 @@
 - `select`
 
 ##### Questions 
-
-
-
-
