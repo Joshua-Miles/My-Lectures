@@ -1,4 +1,4 @@
-# Intro to ActiveRecord
+# ActiveRecord
 
 
 ### Resources
@@ -84,7 +84,23 @@
 ##### Questions 
 
 
-
-
 ### Conclusion 
-* What about relationships?
+* What about associations?
+
+
+### Vocabulary
+
+- Gemfile
+    - Managing Dependencies
+- Rake
+    - Managing Tasks
+- ActiveRecord
+    - Mapping Ruby code to SQL queries (ORMs)
+- ORM
+    - Object
+    - Relational
+    - Mapper
+- Migrations
+    - Used to define a table schema
+- Model
+    - Used to represent a table when our app is running 

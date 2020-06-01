@@ -1,6 +1,5 @@
 # Module 1
 
-### Learning Goals
 - Data Structures
   - Describe structures with hashes and arrays
   - Use `each` to run code for every element in an array
@@ -30,18 +29,13 @@
   - Reference related objects through a join class
   - Use `map` to reference related objects through a join class
 - SQL
-  - Explain the purpose and structure of a relational database
-  - Use CRUD Operations to manipulate data
-  - Use aggregate functions to analyze data
-  - Use Row IDs as Foreign Keys
-  - Use JOIN 
+  - Define SQL and Schema
+  - Use Foreign Keys to Associate Table Rows
+  - Access a SQL database from Ruby
 - Active Record
-  - Create a migration
-  - Run a migration
-  - Create a record
-  - Read a record
-  - Update a record
-  - Delete a record
+  - Recognize the components of a conventional ActiveRecord environment
+  - Use ActiveRecord migrations to create and update a data schema
+  - Use ActiveRecord models to manipulate data
 - Active Record Relationships
   - Use a migration to create foreign keys
   - Use a `belongs_to` macro to create an ActiveRecord relationship
@@ -50,24 +44,22 @@
 - CLI Applications
   - Focus on the methodology of using tools to build an app
 - Git
-  - TODO
+  - Use `git clone` to get code from GitHub
+  - Use `git commit` and  `git push` to save code back to GitHub
+  - Use `git branch` to work on your own copy of a project
+  - Merge branches together using Pull Requests on GitHub
+- Automated Testing
+  - Describe various kinds of software testing
+  - Write a unit test using RSpec 
 - Intro to the Internet
   - Explain the role of a Server and Client in the context of the internet
-  - Identify the components of an HTTP Request/Response
-    - URL
-      - Protocol
-      - Domain
-      - Path
-      - Port
-    - Method
-    - Headers
-    - Body
-    - Status Code
+  - Identify the components of an HTTP Request and Response
+  - Use Sinatra to to respond to an HTTP Request
 
-### Code Challenge Rubric
+
+### Code Challenge Rubric:
 
 #### Build classes using OO Ruby Syntax
-
 1. Class code has a syntax or runtime error. Code does not run at all, or exits with an error, or most Object-oriented deliverables are not implemented.
 
 2. No syntax errors. Some deliverables function correctly. Mixes up syntax for class and instance methods, refers to variables in the wrong scope, or uses `self` incorrectly, leading to logical errors. Method and variable names do not correspond to their respective behavior or data types. Methods might be duplicated, or code includes unused methods without a clear purpose.
@@ -79,7 +71,6 @@
 5. Correct class syntax for all deliverables, all deliverables complete. Code expresses intent: method and variable names indicate their behavior and data types, with the correct pluralization. No methods are duplicated. All methods have a clear purpose. Shared functionality is factored out into helper methods. Appropriate use of attr\_\* macros.
 
 #### Model relationships using Ruby
-
 1. Submitted code does not relate models to each other through methods or data.
 
 2. Models relate to each other, but incompletely. Relationship methods are missing or have logic errors, store data on the wrong model, or are missing a single source of truth.
