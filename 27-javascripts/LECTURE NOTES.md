@@ -1,19 +1,51 @@
-* # JavaScripts
+# JavaScripts
+
+##### FormativeEducation Deck: <https://formative.education/projects/29/edit>
+
+### Learning Goals
+- Identify common syntax differences between Ruby and JavaScript
+- Explain the difference beween referencing and invoking a function
+- Explain how JavaScript will find the value of a variable based on scope
 
 
 
-  ### Learning Goals
+### Learning Goal 1: Identify common syntax differences between Ruby and JavaScript
 
-  - Identify common syntax differences between Ruby and JavaScript
-    - String interpolation
-    - No symbols
-    - Everything is more explicit
-      - parenthesis, curly braces, etc.
-  - Explain the difference beween referencing and invoking a function
-  - Explain how JavaScript will find the value of a variable based on scope
-  - Define variable hoisting
+#### Demonstrate:
+
+- 
+
+#### Reinforce:
+
+- 
 
 
+
+### Learning Goal 2: Explain the difference beween referencing and invoking a function
+
+#### Demonstrate:
+
+- 
+
+#### Reinforce:
+
+- 
+
+
+
+### Learning Goal 3: Explain how JavaScript will find the value of a variable based on scope
+
+#### Demonstrate:
+
+- 
+
+#### Reinforce:
+
+- 
+
+
+
+### Finished Code:
 
   ```
    // Define a variable to use when we need to set the characters image src

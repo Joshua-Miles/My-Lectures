@@ -18,7 +18,6 @@
 
 
 
-
 ### Dogs
 
 | Name   | Breed | Owner |

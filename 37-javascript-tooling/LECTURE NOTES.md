@@ -1,6 +1,6 @@
 # JavaScript Tooling
 
-##### Time Estimate: 1:30 + Recommended 10 minute break
+##### Time Estimate: 1:30
 
 
 
@@ -8,21 +8,13 @@
 
 - Define NPM, Babel, and JSX as tools for developing with JavaScript
 - Use WebPack's Import Syntax to distribute code in multiple files
-- Use public class fields to define instance properties without a constructor
 - Use `create-react-app` to setup Babel, WebPack, and JSX for you
-
-
-
-## Resources
-
-- [Sample Video](<[Link to video](https://youtu.be/EiYPbYvsiT4)>)
-- [Kahoot Quiz](https://create.kahoot.it/share/intro-to-rails-api/8af1070f-eb2d-481d-b30d-a862207f74f9)
 
 
 
 ### Activation
 
-##### What sucks about JavaScript?
+##### What were some of the biggest pain points did we experience this week?
 
 - File splitting (dependancy management)
 - Imperitive syntax 
@@ -51,10 +43,6 @@ Common thread: **Lack of structure**
 
 #### Questions
 
-#### Check for Understanding: 
-
-- *Kahoot Quiz:* [1-3]
-
 
 
 ### Learning Goal 2: Use ES6 Import Syntax to distribute code in multiple files
@@ -68,58 +56,6 @@ Common thread: **Lack of structure**
 - Default exports / imports
 
 #### Questions
-
-#### Check for Understanding: 
-
-- *Kahoot Quiz*: [4-6]
-
-
-
-> Recommended Break
-
-
-
-### Learning Goal 3: Use public class fields to define instance properties without a constructor
-
-#### Time Estimate: 25 min
-
-#### Demonstrate:
-
-- Creating a property with a constructor 
-- Creating a property without a constructor
-- Static properties
-- How we will still need to use a constructor when we want to accept arguments during instantiation
-
-#### Questions
-
-#### Check for Understanding: 
-
-**Think-Pair-Share**: 
-
-* *Think:* refactor a simple class using class fields:
-
-```
-class Owl {
-	
-	constructor(){
-		this.flys = true
-        this.activeAtNight = true
-        this.hunts = [
-        	'insects', 'small mammals', 'other birds'
-        ]
-
-
-     	Owl.all.push(this)
-	}
-
-}
-
-Owl.all = []
-Owl.numberOfSpecies = 200
-```
-
-* *Pair:* with one partner
-* *Share:* your code, make note of any differences, and discuss the pros and cons of both approaches
 
 
 
@@ -143,21 +79,3 @@ Owl.numberOfSpecies = 200
 \* [An aside on Self Assessments](./student-facing-notes)
 
 
-
-## Recommended Prework
-
-> None
-
-
-
-## Recommended Postwork
-
-> Under Mod 4:
-
-- Create React App
-- JSX
-- Node Package Manager
-- Node Package Manager Lab
-- Babel and React
-- Webpack and React
-- React Modular Code

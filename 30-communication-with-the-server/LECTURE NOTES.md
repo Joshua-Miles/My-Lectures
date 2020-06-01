@@ -1,29 +1,23 @@
 # Communication with the Server
 
-### Resources
-* https://create.kahoot.it/share/communication-with-the-server/e9275d17-0fb4-4483-9693-10e9b84aa878
+##### FormativeEducation Deck: <https://formative.education/projects/32/edit>
 
-### Learning Goals
+> Open the backend and run `rails s` before lecture begins
+> Open https://app.swaggerhub.com/apis-docs/Joshua-Miles/TheWebGame/1.0.0 to use as API Documentation when making fetch requests
 
-* Describe the uses of a backend in the context of web applications
-* Use fetch to retrieve data from a server and display the results in the DOM
-* Exaplain what it means for `fetch` to run Asynchronously
-* Use fetch to send data to a server
 
 
 ### Activation
 
-What are some of the **reasons** you use web applications?
+What do you use these web applications to **do**?
 
-| Site/App | Reason |
-| -------- | ------ |
-| Twitter  |        |
-| YouTube  |        |
-| UberEats |        |
-| Yelp     |        |
-| Gmail    |        |
-|          |        |
-|          |        |
+
+
+### Learning Goals
+
+- Describe the uses of a backend in the context of web applications
+- Use fetch to retrieve data from a server and display the results in the DOM
+- Use fetch to send data to a server
 
 
 
@@ -36,9 +30,7 @@ What are some of the **reasons** you use web applications?
 - That we would *probably* not want to store this information on the client
   - We want to store and retrieve the information from the server
 
-#### Check for Understanding: 
 
-* Kahoot Quiz (1-3)
 
 
 ### Learning Goal 2: Use fetch to retrieve data from a server and display the results in the DOM
@@ -50,7 +42,7 @@ What are some of the **reasons** you use web applications?
 * Making a simple get request in postman
 * Making the same request with fetch in the browser
 ```
-fetch('http://10.185.7.123:3000/characterData')
+fetch('http://localhost:3000/characterData')
     .then(function(response){
         return response.json()
     })
@@ -61,32 +53,14 @@ fetch('http://10.185.7.123:3000/characterData')
     })
 ```
 
-#### Check for Understanding: 
 
-* Everyone should make a request to `http://reddit.com/.json` in your chrome console, mark off your name
 
 
 > Break
 
 
-### Learning Goal 3: Explain what it means for `fetch` to run Asynchronously
 
-#### Demonstrate:
-
-* That HTTP requests take time to reacht the server and responses take time to come back from the server
-* JavaScript runs synchronously 
-* If we stopped the execution of the script the page would become unresponsive
-* We want our fetch to run asynchronously
-* That fetch returns a promise object 
-* The function we pass to fetches `.then` will be called when the response comes back
-* It's like an event listener!
-
-#### Check for Understanding: 
-
-* Kahoot Quiz (4-6)
-
-
-### Learning Goal 4: Use fetch to send data to a server
+### Learning Goal 3: Use fetch to send data to a server
 
 #### Demonstrate:
 
@@ -100,10 +74,4 @@ fetch('http://10.185.7.123:3000/characterData')
 
 #### Check for Understanding: 
 
-> Open https://www.fuckyeahgtj.com/emoji-socket-fireworks/ for the duration of this CFU
-
-* *Self Assessment:* *
-  * Open your console
-  * Make a POST request to https://emoji-firework-api.herokuapp.com/fireworks
-  * The body of the request should look like this:  `{ "emoji": "🥥" }` 
-    * (You can replace the coconut with any emoji you like)
+> Open https://www.fuckyeahgtj.com/emoji-socket-fireworks/ for the duration of these FormativeEd Exercises

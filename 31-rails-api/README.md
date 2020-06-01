@@ -1,4 +1,4 @@
-# RESTful APIs
+# Rails APIs
 
 ### Deliverables
 * Build a backend that supports mutliple players

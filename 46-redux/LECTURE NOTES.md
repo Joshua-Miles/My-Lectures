@@ -1,12 +1,8 @@
-# Intro to Redux
+# Redux
 
+**Time: 1:30** 
 
-
-### Resources
-
-* Kahoot Quiz: https://create.kahoot.it/share/intro-to-redux/e475ec51-31bf-4bf7-9b9d-e5a2b88f3008
-
-* Lecture Exercises: <https://github.com/Joshua-Miles/intro-to-redux-lecture-excersises>
+**FormativeEducation Deck:** https://formative.education/projects/45/edit>
 
 
 
@@ -21,7 +17,8 @@
 * Explain why we **must** declaratively update state
 
 
-### Activation [5]
+
+### Activation 
 
 * What were some pain points in React?
 * As our applications grow in complexity the flow of data can become **unmanageable** 
@@ -29,22 +26,20 @@
 
 
 
-### Learning Goal 1: Explain the two problems Redux attempts to solve [25]
+### Learning Goal 1: Explain the two problems Redux attempts to solve
 
 ##### Demonstrate 
 
 * The problem of passing props needlessly
 
   * Needlessly Passing Props makes Refactoring a Pain
-  * https://res.cloudinary.com/jmiles/image/upload/v1557408386/lecture-assets/master/appendix/redux/without-redux.png
-  * https://res.cloudinary.com/jmiles/image/upload/v1557408386/lecture-assets/master/appendix/redux/redux.png
 
 * The problem of predicting state
 
   * If state can change anywhere, it becomes difficult to predict what's in state
   * State change exercise attempt 1
 
-  * https://res.cloudinary.com/jmiles/image/upload/v1557408386/lecture-assets/master/appendix/redux/reducer.png
+  * Reducer Image
   * State change exercise attempt 2
 
 
@@ -55,17 +50,13 @@
 - Redux
   - A library to help us manage state 
 
-##### Check for Understanding
-
-* Kahoot [1-3] 
-* Think Pair Share
-
 
 
 ### Learning Goal 2: Create a store to manage your app's state [30]
 
 ##### Demonstrate 
 
+* Import `createStore` from Redux
 * Creating a store in index.js using createStore
 * The reducer
 * Looking at it with dev tools
@@ -80,10 +71,7 @@
 - reducer
   - A function which takes in state and an action and returns a new state
 
-##### Check for Understanding
 
-* Kahoot [4-7]
-* Lecture Exercise 1
 
 
 
@@ -98,11 +86,6 @@
 
 * action
   - A plain JavaScript object which represents a users interaction with our app
-
-##### Check for Understanding
-
-- Kahoot [8-10]
-- Lecture Exercise 2
 
 
 
@@ -126,12 +109,3 @@
   ```
 
    
-
-##### Check for Understanding
-
-- Think Pair Share
-  - 
-
-
-
-### Conclusion

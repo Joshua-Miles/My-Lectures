@@ -1,8 +1,4 @@
-# RESTful APIs
-
-### Resources: 
-
-* <https://play.kahoot.it/#/?quizId=8af1070f-eb2d-481d-b30d-a862207f74f9>
+# Rails APIs
 
 
 
@@ -11,6 +7,8 @@
 - Render JSON data from a Rails controller
 - Using a Rails controller to manage persisted data  
 - Explain CORS and how to implement it in a Rails Api
+- Render JSON data that includes associated objects
+
 
 
 ### Learning Goal 1: Render JSON data from a Rails controller
@@ -33,15 +31,7 @@
 #### Demonstrate:
 
 * Creating & Seeding models 
-* Building out a controller
-
-#### Check for Understanding: 
-
-* Kahoot [1-4]
-
-#### Materials
-
-- `https://apidock.com/rails/ActiveRecord/Serialization/to_json`
+* Building out a controller to match a fetch request
 
 
 
@@ -58,7 +48,3 @@
 * Why these errors are thrown by the browser
 * How to install the cors gem
 * How to configure cors
-
-#### Check for Understanding: 
-
-* Kahoot [5-7]s

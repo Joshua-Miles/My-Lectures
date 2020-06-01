@@ -1,4 +1,8 @@
-# JavaScript and the DOM
+# The DOM
+
+##### FormativeEducation Deck: <https://formative.education/projects/28/edit>
+
+
 
 ### Learning Goals
 
@@ -32,9 +36,7 @@ JavaScript lets us write applications that respond to our users.
 
 - How could I change this image to be an image of our character? (15 sec wait time)
 
-#### Check for Understanding: 
 
-- Exercise 1
 
 ### Learning Goal 2: Create new DOM nodes and append them
 
@@ -52,10 +54,9 @@ JavaScript lets us write applications that respond to our users.
 
 - If I wanted to create another image to represent a rock, how would I do it? (15 second wait time)
 
-#### Check for Understanding:
 
-- Kahoot Quiz
-- Exercise 2
+
+
 
 ### Learning Goal 3: Use different querySelectors to select single or multiple elements from the DOM
 
@@ -65,37 +66,11 @@ JavaScript lets us write applications that respond to our users.
 - Using  `querySelector` to jump to specific elements on the page
 - Using  `querySelectorAll` to select multiple elements on the page
 
-#### Check for Understanding: 
 
-- Exercise 3
-
-
-
-
-
-
-
-
-* DOM
-    * Document Object Model
-        * Object: Data + Behavior
-        * Model: Represents whats on the page
-* `document.createElement`
-    * function
-    * Arguments:
-        * The name of an html tag
-    * Return value:
-        * The actual element
-* `document.append`
-* `document.querySelector`
-    * function
-    * Arguments:
-        * A CSS selector (.class-name), (#id)
-    * Return value:
-        * The first element that matches the selector
-* `document.querySelectorAll`
-    * function
-    * Arguments:
-        * A CSS selector (.class-name), (#id)
-    * Return value:
-        * A list of all elements that match the selector
+### Post Lecture Experiment Ideas:
+1. Try to render the character a little lower on the page. What style attribute could we set to move it down? 
+* Use the CSS reference as a guide: https://www.w3schools.com/cssref/default.asp
+2. We can also render videos using HTML tags- try to render the video found at this address: https://youtu.be/0ZNIQOO2sfA. 
+* Use the HTML reference as a guide: https://www.w3schools.com/tags/ref_byfunc.asp
+* Create the element using HTML first
+* Try to create the element and add it to the page using JavaScript
